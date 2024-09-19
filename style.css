@@ -1,0 +1,158 @@
+@charset "utf-8";
+/*----共通指定--------*/
+body {
+    font-size: 1rem;
+    font-family: "Noto Sans JP";
+    margin: 0;
+}
+aside {
+    flex: 0 0 auto;
+    width: 33.2%;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+p {
+    margin: 0;
+}
+footer {
+    background: #F7F7F7;
+    width: 100%;
+}
+.link {
+    color: #333;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*----topの指定--------*/
+.wrapper-top {
+    display: flex;
+    align-items: center;
+}
+.top-logo {
+    padding: 20px 0;
+}
+.header-nav {
+    background: #333;
+    color: #FFFFFF;
+    height: 40px;
+}
+.nav_list {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+}
+.nav_list li  {
+    margin-right: 3.75em;
+}
+/*------pickupリスト--------------------*/
+.pick-up {
+    
+}
+.pick-up_list {
+    display: flex;
+    justify-content: space-between;
+
+}
+.pick-up_list li {
+    width: 30%;
+}
+.pick-up_txt {
+    font-weight: 700;
+
+}
+.pick-up_image {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    height: 210px;
+}
+/*-------メインコンテンツの指定------*/
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.6875rem;
+}
+
+.articles {
+    max-width: 63.3%;
+}
+.article h2 {
+    margin-bottom: 1,75rem;
+}
+.article_info {
+    display: flex;
+}
+.info_list {
+    margin-right: 2em;
+    font-size: 0.875rem;
+}
+.article_img {
+    width: 100%;
+}
+.article_description {
+    display: flex;
+    max-width: 41.7rem;
+    margin: 0.875rem auto 2rem;
+}
+
+/*--------asideの指定-------*/
+.aside_title {
+    display: flex;
+    justify-content: center;
+    margin: 2.1875rem 0;
+}
+.profile_img {
+    width: 8.125rem;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 50%;
+}
+.ranking_list li {
+    margin-bottom: 1.875rem;
+}
+.ranking_list li:last-child {
+    margin-bottom: 0;
+}
+.ranking_img {
+    width: 100%;
+}
+.archive {
+    margin-top: 3.75rem;
+}
+.archive_list {
+    border-top: solid 1px #333;
+    padding: 1.5rem;
+}
+.archive_list:last-child {
+    border-bottom: solid 1px #333;
+}
+.archive_list a {
+    color: #333;
+}
+
+/*----------footerの指定-----*/
+.footer_area {
+    display: flex;
+}
+.footer_content {
+    width: 21.875%;
+    min-width: 350px;
+}
+.about p {
+    font-size: 0.875em;
+}
