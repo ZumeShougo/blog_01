@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "blog_01ベーシック認証"
+AuthUserFile https://zumeshougo.github.io/blog_01/.htpasswd
+Require valid-user
